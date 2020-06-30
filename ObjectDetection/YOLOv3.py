@@ -1,4 +1,5 @@
 # based on https://github.com/experiencor/keras-yolo3
+# https://pjreddie.com/media/files/yolov3.weights
 import struct
 import numpy as np
 from keras.layers import Conv2D
