@@ -1,5 +1,6 @@
 import os
 import tensorflow as tf
+import matplotlib.pyplot as plt
 
 base_dir = './Cat_Vs_Dog/cats_and_dogs_images'
 train_dir = os.path.join(base_dir, 'train')
@@ -96,7 +97,6 @@ def smoothening(points, factor = 0.8):
             smooth_points.append(point)
     return smooth_points
  
- import matplotlib.pyplot as plt
 train_acc = history.history['binary_accuracy']
 val_acc = history.history['val_binary_accuracy']
 train_loss = history.history['loss']
