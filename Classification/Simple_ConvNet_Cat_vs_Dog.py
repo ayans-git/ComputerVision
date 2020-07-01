@@ -1,6 +1,5 @@
 import os
 import tensorflow as tf
-from keras import callbacks
 import matplotlib.pyplot as plt
 
 base_dir = './Cat_Vs_Dog/cats_and_dogs_images'
